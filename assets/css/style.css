@@ -23,13 +23,10 @@ body {
     margin: 0 0 0 0;
 }
 
-
-
 main, header div {
     width: 960px;
     margin: auto;
 }
-
 
 header {
     background: white;
@@ -51,6 +48,7 @@ header div {
     font-size: 32px;
     font-weight: bold;
 }
+
 div#name h3 {
     position: relative;
     top: 28px;
@@ -81,20 +79,22 @@ main, #content {
     margin-left: auto;
     margin-right: auto;
 }
+
 #content {
     overflow: auto;
     margin-bottom: 100px;
 }
+
 #profpic {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 p {
     margin-top: 20px;
     line-height: 1.25em;
-
 }
 
 div#content p {
@@ -126,6 +126,7 @@ textarea, input {
 textarea {
     height: 175px;
 }
+
 input[type="submit"] {
     width: 88px;
     height: 30px;
@@ -138,6 +139,7 @@ input[type="submit"] {
 form {
     margin-top: 10px;
 }
+
 /* styles for portfolio.html */
 .projects {
     width: 200px;
@@ -146,6 +148,7 @@ form {
     margin: 25px 25px 25px 25px;
     text-align: center;
 }
+
 .project-title {
     position: relative;
     top: 155px;
@@ -156,6 +159,7 @@ form {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 #hangman {
     background-image: url("../images/columns.jpeg");
     margin-left: 0px;
@@ -181,14 +185,16 @@ form {
     margin-left: 0px;
 }
 
-
 @media only screen and (max-width: 980px) {
+
     main, header div {
         width: 748px;
     }
+
     #content, h1 {
         width: 708px;
     }
+
     p {
         font-size: 110%;
     }
@@ -200,12 +206,15 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
+
     main, header div {
         width: 620px;
     }
+
     #content, h1 {
         width: 580px;
     }
+
     p {
         font-size: 120%;
     }
@@ -224,18 +233,15 @@ form {
     #content, h1 {
         width: 90%;
     }
-    /* header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
-    } */
+
     header div {
         width: 100%;
     }
+
     p {
         font-size: 140%;
     }
+
     #name {
         float: none;
         width: 100%;
@@ -279,6 +285,7 @@ form {
     footer, footer p {
         position: static;
     }
+    
     /* contact page */
     textarea, input {
         width: 98%;
