@@ -161,26 +161,26 @@ form {
 }
 
 #hangman {
-    background-image: url("../images/columns.jpeg");
+    background-image: url("../images/space.png");
     margin-left: 0px;
 }
 
 #rpg {
-    background-image: url("../images/forest.jpeg");
+    background-image: url("../images/socrates.png");
 }
 
 #trivia {
-    background-image: url("../images/protractor.jpeg");
+    background-image: url("../images/eiffel.png");
     clear:left;
     margin-left: 0px;
 }
 
 #infowidget {
-    background-image: url("../images/leaves.jpeg");
+    background-image: url("../images/cat.gif");
 }
 
 #rockpaper {
-    background-image: url("../images/swing.jpeg");
+    background-image: url("../images/rps.png");
     clear:left;
     margin-left: 0px;
 }
