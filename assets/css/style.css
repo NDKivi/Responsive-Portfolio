@@ -185,6 +185,10 @@ form {
     margin-left: 0px;
 }
 
+#liri {
+    background-image: url("../images/liri.png");
+}
+
 @media only screen and (max-width: 980px) {
 
     main, header div {
